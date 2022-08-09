@@ -57,8 +57,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         contactAdapter = new ContactAdapter(myList, this);
         recyclerView.setAdapter(contactAdapter);
-
-
+        Toast.makeText(this, "Hello this is new commit", Toast.LENGTH_SHORT).show();
         checkPermission();
 
 
